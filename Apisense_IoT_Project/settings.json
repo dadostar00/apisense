@@ -1,0 +1,35 @@
+{
+    "catalog": {
+        "host": "127.0.0.1",
+        "port": 8080,
+        "file": "Catalog.json",
+        "bootstrap_hives": [
+            {"hive_id": "Hive_01", "vibration_threshold": 2.5, "location": "Politecnico di Torino"},
+            {"hive_id": "Hive_02", "vibration_threshold": 3.0, "location": "Collina di Torino"}
+        ]
+    },
+    "mqtt": {
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "base_topic": "apisense"
+    },
+    "defaults": {
+        "vibration_threshold": 2.5
+    },
+    "sensors": {
+        "vibration_interval": 5,
+        "weight_interval": 15,
+        "environment_interval": 15,
+        "intrusion_probability": 0.03
+    },
+    "alerts": {
+        "clear_after": 3,
+        "catalog_refresh": 15
+    },
+    "managers": {
+        "discovery_interval": 10
+    },
+    "thingspeak": {
+        "min_interval": 16
+    }
+}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Secrets and runtime state (never commit these)
+Apisense_IoT_Project/secrets.json
+Apisense_IoT_Project/Catalog.json
+Apisense_IoT_Project/bot_chats.json
+*.tmp
+
+# OS / editor
+.DS_Store
+Icon?
+Thumbs.db
+.vscode/
+.idea/

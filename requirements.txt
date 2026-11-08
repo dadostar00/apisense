@@ -1,0 +1,5 @@
+paho-mqtt>=2.0,<3
+CherryPy>=18.8
+requests>=2.28
+pyTelegramBotAPI>=4.14
+pytest>=7.0
